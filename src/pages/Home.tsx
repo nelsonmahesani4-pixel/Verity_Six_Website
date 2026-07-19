@@ -40,8 +40,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-7 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              Verity Six is a digital and creative studio built on truth and craft. We help ambitious teams
-              clarify their brand and ship digital experiences that actually perform.
+              Verity6 is a Pakistan-rooted technology and growth company built to turn ideas into practical solutions. Through our six connected pillars—Digital, Creative, Careers, Labs, Academy, and Secure—we help businesses and individuals grow with confidence. We believe the best work begins by understanding real people and solving real challenges. Every project is guided by honesty, quality, responsibility, and a commitment to continuous learning. Whether we're creating a website, building a brand, exploring new technology, or developing future talent, our purpose remains the same: to create meaningful work that delivers value today while building trust for tomorrow.
             </p>
           </Reveal>
           <Reveal delay={240}>

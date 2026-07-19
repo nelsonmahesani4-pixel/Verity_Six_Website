@@ -1,17 +1,16 @@
 import {
-  Compass,
-  PenTool,
-  ShieldCheck,
-  Layers,
-  Repeat,
-  TrendingUp,
+   Globe,
   Palette,
-  MonitorSmartphone,
-  LayoutDashboard,
-  Clapperboard,
-  Search,
-  Megaphone,
+  Briefcase,
+  FlaskConical,
+  GraduationCap,
+  ShieldCheck,
   type LucideIcon,
+  Lightbulb,
+  Rocket,
+  Handshake,
+  MessageCircle,
+  TrendingUp,
 } from "lucide-react"
 
 export const SITE = {
@@ -54,43 +53,44 @@ export interface Pillar {
 }
 
 export const SIX_PILLARS: Pillar[] = [
-  {
+ {
     number: "01",
-    title: "Clarity",
-    description: "We strip away noise so the message, the interface, and the intent are unmistakable.",
-    icon: Compass,
+    title: "Digital",
+    description: "Bringing Your Vision Online — We create modern websites and digital experiences that help businesses build a strong online presence and connect with the people who matter most.",
+    icon: Globe,
   },
   {
     number: "02",
-    title: "Craft",
-    description: "Details are the work. Type, spacing, motion, and code are treated with equal care.",
-    icon: PenTool,
+    title: "Creative",
+    description: "Where Ideas Find Their Voice — We turn ideas into meaningful designs, compelling content, and memorable brands that people recognize and trust.",
+    icon: Palette,
   },
   {
     number: "03",
-    title: "Integrity",
-    description: "We say what we will do, then do it. Our recommendations serve the brand, not the invoice.",
-    icon: ShieldCheck,
+    title: "Careers",
+    description: "Growing People, Growing Possibilities — We believe talent deserves opportunity. We support individuals with practical pathways to learn, grow, and succeed in their careers.",
+    icon: Briefcase,
   },
   {
     number: "04",
-    title: "Strategy",
-    description: "Design decisions are anchored to goals, audiences, and evidence rather than trends.",
-    icon: Layers,
+    title: "Labs",
+    description: "Turning Curiosity into Innovation — Every breakthrough starts with a question. We research, test, and build practical technology inspired by real customer needs.",
+    icon: FlaskConical,
   },
   {
     number: "05",
-    title: "Consistency",
-    description: "One coherent system across every touchpoint, so the brand feels the same everywhere.",
-    icon: Repeat,
+    title: "Academy",
+    description: "Learning That Lasts — We create learning experiences that build confidence, develop practical skills, and prepare people for the opportunities ahead.",
+    icon: GraduationCap,
   },
   {
     number: "06",
-    title: "Impact",
-    description: "We build for measurable outcomes and keep refining after launch, not before.",
-    icon: TrendingUp,
+    title: "Secure",
+    description: "Protecting What You Value — Trust is built through responsibility. We encourage secure digital practices that help businesses protect their data, reputation, and future.",
+    icon: ShieldCheck,
   },
 ]
+// services icons
 
 export interface Service {
   title: string
@@ -100,42 +100,36 @@ export interface Service {
 }
 
 export const SERVICES: Service[] = [
-  {
-    title: "Brand Identity & Design",
-    description: "Naming systems, visual identity, and brand guidelines that give your work a confident, consistent voice.",
-    icon: Palette,
-    capabilities: ["Logo & wordmark systems", "Visual identity", "Brand guidelines", "Art direction"],
-  },
-  {
-    title: "Web Design & Development",
-    description: "Fast, accessible, responsive websites engineered with modern tooling and built to scale.",
-    icon: MonitorSmartphone,
-    capabilities: ["Marketing sites", "Design systems", "Headless & CMS builds", "Performance optimization"],
-  },
-  {
-    title: "UI / UX Product Design",
-    description: "Research-led interface and experience design for products people find genuinely easy to use.",
-    icon: LayoutDashboard,
-    capabilities: ["User research", "Wireframing & prototyping", "Interface design", "Usability testing"],
-  },
-  {
-    title: "Content & Motion",
-    description: "Editorial, photography direction, and motion design that make the brand feel alive across channels.",
-    icon: Clapperboard,
-    capabilities: ["Content strategy", "Motion & animation", "Photo & video direction", "Copywriting"],
-  },
-  {
-    title: "Digital Marketing & SEO",
-    description: "Technical SEO and marketing foundations that help the right people find and trust your brand.",
-    icon: Search,
-    capabilities: ["Technical SEO", "Analytics & reporting", "Landing pages", "Conversion optimization"],
-  },
-  {
-    title: "Social & Campaigns",
-    description: "Considered social systems and campaign concepts designed to earn attention honestly.",
-    icon: Megaphone,
-    capabilities: ["Campaign concepts", "Social templates", "Launch strategy", "Creative production"],
-  },
+{
+  title: "Caption 01",
+  description: "Every successful brand starts with one brave idea. What's yours?",
+  icon: Lightbulb,
+  capabilities: [],
+},
+{
+  title: "Caption 02",
+  description: "The future belongs to those who keep creating, learning, and moving forward.",
+  icon: Rocket,
+  capabilities: [],
+},
+{
+  title: "Caption 03",
+  description: "We're here to build more than technology—we're here to build trust, opportunity, and lasting impact.",
+  icon: Handshake,
+  capabilities: [],
+},
+{
+  title: "Caption 04",
+  description: "Your story deserves to be seen, heard, and remembered. Let's bring it to life together.",
+  icon: MessageCircle,
+  capabilities: [],
+},
+{
+  title: "Caption 05",
+  description: "Big dreams begin with small steps. Today is a great day to start building yours.",
+  icon: TrendingUp,
+  capabilities: [],
+},
 ]
 
 export interface ProcessStep {
